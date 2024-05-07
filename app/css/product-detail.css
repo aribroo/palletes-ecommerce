@@ -1,0 +1,51 @@
+.dsa12r1 {
+  font-weight: 900;
+  text-align: center;
+  margin: 40px;
+}
+
+.product-name {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.description {
+  margin: 20px 0;
+}
+
+.whatsapp-link {
+  
+  display: inline-block;
+  background-color: #25d366;
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 2px 20px;
+  padding-right: 50px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-link:hover {
+  background-color: #128c7e;
+}
+
+.whatsapp-link img {
+  border: none;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 840px) {
+  .whatsapp-link {
+    
+    text-align: center;
+    display: block;
+    width: 205px;
+    margin: 80px auto 0;
+    font-size: 14px;
+    padding: 1px 16px;
+    padding-right: 50px;
+  }
+}

@@ -1,0 +1,19 @@
+.sdsdf12dxsf {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+
+
+.sdsdf12dxsf:hover {
+  background-color: #45a049;
+}
+
+.sdsdf12dxsf:active {
+  transform: translateY(1px);
+}

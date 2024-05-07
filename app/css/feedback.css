@@ -1,0 +1,98 @@
+/*style.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.lln121dfsd {
+  width: 90%;
+  max-width: 900px;
+  margin: 90px auto;
+}
+
+.textup {
+  text-align: center;
+  color: black;
+  font-weight: 700;
+}
+
+i {
+  margin-right: 3px;
+}
+
+.sd23rsdf {
+  margin: 10px 0;
+}
+
+.form-box {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(36, 67, 40, 0.8);
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 150px auto;
+}
+
+.form-box form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-box .radio-group {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.form-box .radio-group input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.form-box label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 17px;
+  color: black;
+  font-weight: 600;
+}
+
+.form-box input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  resize: none;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.form-box button {
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 15px;
+  transition: 0.2s linear;
+}
+
+.form-box button:hover {
+  background-color: black;
+  border: none;
+  transform: translateY(-10px);
+}
+
+.form-box h1 {
+  color: green;
+}
+
+@media screen and (max-width: 600px) {
+  .sd23rsdf {
+    margin: 10px 0;
+  }
+
+  .lln121dfsd {
+    margin-top: 120px;
+  }
+}

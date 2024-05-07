@@ -1,0 +1,48 @@
+.sdlfksdflksdf {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.sdfwg23r {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.sdfwg23r:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.sdfwg23r img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.p_name,
+.p_price {
+  padding: 10px;
+  margin: 0;
+}
+
+.p_name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+  .sdlfksdflksdf {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .sdlfksdflksdf {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

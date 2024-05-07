@@ -96,6 +96,13 @@ header ul li a {
 footer {
   padding: 25px 0;
 }
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -120,33 +127,46 @@ footer {
   display: block;
   clear: both;
 }
-table {
+.table {
   width: 100%;
   border-collapse: collapse;
 }
-table tr {
+.table tr {
   height: 30px;
 }
-table tr td {
+.table tr td {
   padding: 5px 10px;
 }
+
+
+@media screen and (max-width: 970px) {
+}
+
+
+
 .search {
   padding: 15px 0;
   background-color: #fff;
-  border: 1px solid #ccc;
   text-align: center;
 }
 .search input[type="text"] {
   width: 60%;
-  padding: 10px;
+  font-weight: 600;
+  padding: 20px;
 }
 .search input[type="submit"] {
-  padding: 12px 15px;
+  padding: 20px 15px;
   background-color: #2640bf;
   color: #fff;
   border: none;
   cursor: pointer;
 }
+
+.search .container .sd12jsdf {
+  margin-left: -77px;
+  border: 1px solid black;
+}
+
 .col-5 {
   width: 20%;
   height: 100px;
@@ -182,6 +202,9 @@ table tr td {
 }
 .footer {
   padding: 25px 0;
+  margin-top: 10vh;
+  position: sticky;
+  top: 100%;
   background-color: #333;
   color: #fff;
   text-align: center;
@@ -233,4 +256,135 @@ table tr td {
   .col-2 {
     width: 100%;
   }
+}
+
+/* navbar */
+
+nav {
+  background: #2640bf;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.nav-wrapper {
+  width: 80%; /* Lebar konten navbar */
+  margin: 0 auto; /* Menengahkan navbar */
+}
+
+.jjnnsdfnbjs {
+  width: 100%;
+  margin: 90px auto 0; /* Menambahkan margin atas untuk menghindari tumpang tindih dengan navbar yang tetap menempel */
+}
+
+.jjnnsdfnbjs:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+label.logo a {
+  color: white;
+  font-family: "VanguardCF", sans-serif;
+  font-size: 35px;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+.llppojhnsdq23 {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 952px) {
+  label.logo a {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 950px) {
+  .nav-wrapper {
+    width: 90%; /* Lebar konten navbar */
+    margin: 0 auto; /* Menengahkan navbar */
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-wrapper {
+    width: 100%; /* Lebar konten navbar */
+    margin: 0 auto; /* Menengahkan navbar */
+  }
+}
+
+@media (max-width: 858px) {
+  
+
+  .llppojhnsdq23 {
+    display: block;
+  }
+
+  .llkkjsdfj12 {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+
+/* Product not available */
+
+.sa213123x {
+  text-align: center;
+}
+
+.sa213123x a {
+  font-weight: 500;
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 100px;
+}
+
+.sa213123x h2 {
+  margin-bottom: 30px;
+}
+
+.sa213123x .btn-home {
+  color: #fff;
+  margin-top: 30px;
+  background-color: #2640bf;
+  border-radius: 20px;
+  padding: 10px 20px;
 }
